@@ -1,5 +1,50 @@
+.container {
+  text-align: center;
+  background: url('../../images/Group.png') no-repeat center center fixed;
+}
+
+h1 {
+  color: white;
+  font-family: 'Nerko One', cursive;
+  font-size: 70px;
+}
+
+div .text {
+  color: white;
+  font-family: 'Nerko One', cursive;
+}
+
 .imgRedonda {
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   border-radius: 150px;
+}
+
+.btn {
+  width: 50%;
+  margin: 5%;
+}
+
+.content {
+  height: 100vh;
+  width: 100%;
+}
+
+.card {
+  border-radius: 10%;
+  padding: 3%;
+  opacity: 0.7;
+}
+
+.input {
+  border-radius: 5px;
+  margin: 3%;
+}
+
+@media (max-width: 576px) {
+  div .text {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+  }
 }
