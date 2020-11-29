@@ -13,16 +13,16 @@ const Login = () => {
   };
 
   return (
-    <div className="container container">
+    <div className="containerLogin">
       <div className="row align-items-center justify-content-center content">
         <div className="col-sm-12 col-md-8 col-lg-6">
-          <div className="col">
+          <div className="col titleOne">
             <h1 className="">PET PROFILE</h1>
           </div>
           <div className="row justify-content-center"></div>
           <div className="row justify-content-center">
             <div className="col text">
-              <h4 className="">DEVELOP BY:</h4>
+              <h4 className="h4">DEVELOP BY:</h4>
               <h2>ALEJANDRA MENESES CARMONA</h2>
             </div>
           </div>
@@ -37,11 +37,11 @@ const Login = () => {
               />
             </div>
             <div>
-              <p>Username</p>
+              <p className="text-center">Username</p>
               <input className="input" type="text" />
             </div>
             <div>
-              <p>Password</p>
+              <p className="text-center">Password</p>
               <input className="input" type="password" />
             </div>
             <div className="d-flex justify-content-center">
@@ -49,6 +49,12 @@ const Login = () => {
                 Login
               </button>
             </div>
+          </div>
+        </div>
+        <div className="row justify-content-center">
+          <div className="col textTwo">
+            <h4 className="h4Two">DEVELOP BY:</h4>
+            <h2>ALEJANDRA MENESES CARMONA</h2>
           </div>
         </div>
       </div>

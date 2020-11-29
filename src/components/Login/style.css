@@ -1,6 +1,9 @@
-.container {
+.containerLogin {
   text-align: center;
   background: url('../../images/Group.png') no-repeat center center fixed;
+  margin: 0;
+  width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -41,10 +44,40 @@ div .text {
   margin: 3%;
 }
 
+.textTwo {
+  display: none;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 576px) {
   div .text {
+    display: none;
+  }
+
+  .h4 {
+    display: none;
+  }
+
+  .textTwo {
     display: flex;
     flex-wrap: wrap;
-    color: black;
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 20%;
+  }
+
+  .h4Two {
+    text-align: center;
+    margin-left: 10%;
+  }
+
+  .titleOne {
+    margin-top: 20%;
   }
 }
