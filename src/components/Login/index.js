@@ -7,11 +7,6 @@ import Cat from '../../images/cat.jpg';
 const Login = () => {
   let history = useHistory();
 
-  const goToHome = () => {
-    history.push('/home');
-    // handleClose();
-  };
-
   return (
     <div className="containerLogin">
       <div className="row align-items-center justify-content-center content">
@@ -45,7 +40,7 @@ const Login = () => {
               <input className="input" type="password" />
             </div>
             <div className="d-flex justify-content-center">
-              <button onClick={goToHome} type="button" class="btn btn-primary">
+              <button type="button" className="btn btn-primary">
                 Login
               </button>
             </div>
